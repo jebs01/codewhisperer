@@ -1,4 +1,5 @@
 # write a function to create S3 bucket to use as a public website
+# trying code whispere
 import boto3
 s3 = boto3.resource('s3')
 def create_bucket(bucket_name, region=None):
